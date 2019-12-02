@@ -16,7 +16,7 @@ alias nrp="nr1-pkg"
 eval "$(rbenv init -)"
 
 alias gl="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
-
+alias ll="ls -la"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 export M2_HOME=/Users/bswitzer/apache-maven-3.6.1
